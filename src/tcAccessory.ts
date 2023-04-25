@@ -54,7 +54,7 @@ export class TotalConnectAccessory implements AccessoryPlugin {
 
     setInterval(async () => {
       let newState = await this.tc.getStatus();
-      this.log.info(`AUTO-POLLING state and got ${newState}`);
+      this.log.info(`AUTO-POLLING JEM state and got ${newState}`);
       const converted = this.tc.convertTCArmStateToHK(newState);
       if (newState !== TCArmState.unknown && this.currentState !== converted) {
         this.currentState = converted;
