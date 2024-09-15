@@ -1,5 +1,5 @@
 
-import { default as got, Got, Method, Options, Response } from 'got';
+import got from 'got';
 import { Logging } from 'homebridge';
 import { resolve } from 'path';
 import { report } from 'process';

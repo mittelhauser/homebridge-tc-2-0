@@ -1,7 +1,7 @@
 {
   "displayName": "TotalConnect 2.0 Security",
   "name": "homebridge-tc-security-panel",
-  "version": "1.2.1",
+  "version": "1.2.0",
   "description": "Homebridge plugin for TotalConnect 2.0 Security Systems.",
   "license": "Apache-2.0",
   "repository": {
@@ -26,12 +26,12 @@
     "homebridge-plugin"
   ],
   "dependencies": {
-    "got": "^11.8.1",
+    "got": "^12.0.0",
     "simple-oauth2": "^4.2.0",
     "xml-js": "^1.6.11"
   },
   "devDependencies": {
-    "@types/node": "^14.14.6",
+    "@types/node": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
     "eslint": "^7.13.0",
@@ -39,6 +39,6 @@
     "nodemon": "^2.0.6",
     "rimraf": "^3.0.2",
     "ts-node": "^9.0.0",
-    "typescript": "^4.0.5"
+    "typescript": "^5.0.0"
   }
 }
